@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/ig-favicon.png" type="image/x-icon">
+    <title>Instagram</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img src="assets/images/logo.PNG" alt="" class="brand-img">
+            <input type="text" class="search-box" placeholder="Search">
+            <div class="nav-items">
+                <img src="assets/images/home.PNG" alt="" class="icon">
+                <img src="assets/images/messenger.PNG" alt="" class="icon">
+                <img src="assets/images/add.PNG" alt="" class="icon">
+                <img src="assets/images/explore.PNG" alt="" class="icon">
+                <img src="assets/images/like.PNG" alt="" class="icon">
+                <div class="icon user-profile" onclick="menuToggle();">
+                    <div class="menu">
+                        <ul>
+                            <li>Profile</li>
+                            <li>Logout</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="wrapper">
+            <div class="left-col">
+                <div class="status-wrapper">
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="assets/images/cover 1.png" alt=""></div>
+                        <p class="username">user_name_1</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="assets/images/cover 2.png" alt=""></div>
+                        <p class="username">user_name_2</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="assets/images/cover 3.png" alt=""></div>
+                        <p class="username">user_name_3</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="assets/images/cover 4.png" alt=""></div>
+                        <p class="username">user_name_4</p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img src="assets/images/cover 5.png" alt=""></div>
+                        <p class="username">user_name_5</p>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="assets/images/cover 1.png" alt=""></div>
+                            <p class="username">testname</p>
+                        </div>
+                        <img src="assets/images/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="assets/images/cover 1.png" alt="" class="post-image">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="assets/images/like.PNG" alt="" class="icon">
+                            <img src="assets/images/comment.PNG" alt="" class="icon">
+                            <img src="assets/images/send.PNG" alt="" class="icon">
+                            <img src="assets/images/save.PNG" alt="" class="save icon">
+
+                        </div>
+                        <p class="likes">1234 likes</p>
+                        <p class="description"><span>username</span>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Quae dignissimos tempore minima, dolore, fuga esse dolores rem vel expedita inventore
+                            fugit aspernatur et praesentium! Reprehenderit modi autem laborum quia nesciunt.
+                        </p>
+                        <p class="post-time">10 hours ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="assets/images/smile.PNG" alt="" class="icon">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="assets/images/cover 2.png" alt=""></div>
+                            <p class="username">testname</p>
+                        </div>
+                        <img src="assets/images/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="assets/images/cover 2.png" alt="" class="post-image">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="assets/images/like.PNG" alt="" class="icon">
+                            <img src="assets/images/comment.PNG" alt="" class="icon">
+                            <img src="assets/images/send.PNG" alt="" class="icon">
+                            <img src="assets/images/save.PNG" alt="" class="save icon">
+
+                        </div>
+                        <p class="likes">1234 likes</p>
+                        <p class="description"><span>username</span>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Quae dignissimos tempore minima, dolore, fuga esse dolores rem vel expedita inventore
+                            fugit aspernatur et praesentium! Reprehenderit modi autem laborum quia nesciunt.
+                        </p>
+                        <p class="post-time">10 hours ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="assets/images/smile.PNG" alt="" class="icon">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="assets/images/cover 3.png" alt=""></div>
+                            <p class="username">testname</p>
+                        </div>
+                        <img src="assets/images/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="assets/images/cover 3.png" alt="" class="post-image">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="assets/images/like.PNG" alt="" class="icon">
+                            <img src="assets/images/comment.PNG" alt="" class="icon">
+                            <img src="assets/images/send.PNG" alt="" class="icon">
+                            <img src="assets/images/save.PNG" alt="" class="save icon">
+
+                        </div>
+                        <p class="likes">1234 likes</p>
+                        <p class="description"><span>username</span>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Quae dignissimos tempore minima, dolore, fuga esse dolores rem vel expedita inventore
+                            fugit aspernatur et praesentium! Reprehenderit modi autem laborum quia nesciunt.
+                        </p>
+                        <p class="post-time">10 hours ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="assets/images/smile.PNG" alt="" class="icon">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="assets/images/cover 4.png" alt=""></div>
+                            <p class="username">testname</p>
+                        </div>
+                        <img src="assets/images/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="assets/images/cover 4.png" alt="" class="post-image">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="assets/images/like.PNG" alt="" class="icon">
+                            <img src="assets/images/comment.PNG" alt="" class="icon">
+                            <img src="assets/images/send.PNG" alt="" class="icon">
+                            <img src="assets/images/save.PNG" alt="" class="save icon">
+
+                        </div>
+                        <p class="likes">1234 likes</p>
+                        <p class="description"><span>username</span>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Quae dignissimos tempore minima, dolore, fuga esse dolores rem vel expedita inventore
+                            fugit aspernatur et praesentium! Reprehenderit modi autem laborum quia nesciunt.
+                        </p>
+                        <p class="post-time">10 hours ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="assets/images/smile.PNG" alt="" class="icon">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="assets/images/cover 5.png" alt=""></div>
+                            <p class="username">testname</p>
+                        </div>
+                        <img src="assets/images/option.PNG" alt="" class="options">
+                    </div>
+                    <img src="assets/images/cover 5.png" alt="" class="post-image">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                            <img src="assets/images/like.PNG" alt="" class="icon">
+                            <img src="assets/images/comment.PNG" alt="" class="icon">
+                            <img src="assets/images/send.PNG" alt="" class="icon">
+                            <img src="assets/images/save.PNG" alt="" class="save icon">
+
+                        </div>
+                        <p class="likes">1234 likes</p>
+                        <p class="description"><span>username</span>Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit. Quae dignissimos tempore minima, dolore, fuga esse dolores rem vel expedita inventore
+                            fugit aspernatur et praesentium! Reprehenderit modi autem laborum quia nesciunt.
+                        </p>
+                        <p class="post-time">10 hours ago</p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="assets/images/smile.PNG" alt="" class="icon">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-col">
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="assets/images/profile-pic.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="username">tomcruise</p>
+                        <p class="sub-text">Tom Cruise</p>
+                    </div>
+                    <button class="action-btn">switch</button>
+                </div>
+                <p class="suggestion-text">Suggestions for you</p>
+                <!-- Other Recommendation to Follow -->
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="assets/images/cover 10.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">testname</p>
+                        <p class="sub-text">Follows You</p>
+                    </div>
+                    <button class="action-btn">Follow</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="assets/images/cover 9.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">testname</p>
+                        <p class="sub-text">Follows You</p>
+                    </div>
+                    <button class="action-btn">Follow</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="assets/images/cover 12.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">testname</p>
+                        <p class="sub-text">Follows You</p>
+                    </div>
+                    <button class="action-btn">Follow</button>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="assets/images/cover 5.png" alt="">
+                    </div>
+                    <div>
+                        <p class="username">testname</p>
+                        <p class="sub-text">Follows You</p>
+                    </div>
+                    <button class="action-btn">Follow</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

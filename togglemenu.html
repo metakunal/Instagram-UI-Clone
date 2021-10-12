@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="action">
+        <div class="profile" onclick="menuToggle();">
+            <img src="assets/images/profile-pic.png" alt="">
+        </div>
+        <div class="menu">
+            <h3>Someone Famous <br> <span>Website Designer</span></h3>
+            <ul>
+                <li>Profile</li>
+                <li>Logout</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function menuToggle() {
+            const toggleMenu = document.querySelector('.menu');
+            toggleMenu.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
